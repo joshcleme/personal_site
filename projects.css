@@ -60,19 +60,25 @@ body{
 	
 }
 
-#projects{
+.projects{
 	
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 	padding-top: 75px;
 	padding-left: 75px;
 	padding-right:  75px;
 	padding-bottom: 75px;
-
+	display: grid;
+	grid-template-columns: 47.5% 47.5%;
+	grid-column-gap: 5%;
+	grid-template-rows: repeat(9, minmax(500px, 600px));
 }
 
 #hypo{
 	
 	position: relative;
+	left: 12.5%;
+	top: 35vh;
+	
 	
 }
 
@@ -81,9 +87,6 @@ body{
 	width: 500px;
 	border-radius: 25px;
 	position: absolute;
-	right: 5vh;
-	top: 20vh;
-	display: block;
 	
 }
 
@@ -112,6 +115,8 @@ body{
 #bio{
 	
 	position: relative;
+	left: 10%;
+	top: 30vh;
 	
 }
 
@@ -120,14 +125,14 @@ body{
 	width: 500px;
 	border-radius: 25px;
 	position: absolute;
-	left: 5vh;
-	top: 90vh;
 	
 }
 
 #salesman{
 	
 	position: relative;
+	left: 15%;
+	top: 30vh;
 	
 }
 
@@ -136,14 +141,14 @@ body{
 	width: 500px;
 	border-radius: 25px;
 	position: absolute;
-	right: 5vh;
-	top: 175vh;
 	
 }
 
 #iot{
 	
 	position: relative;
+	left: 10%;
+	top: 30vh;
 	
 }
 
@@ -152,14 +157,14 @@ body{
 	width: 500px;
 	border-radius: 25px;
 	position: absolute;
-	left: 5vh;
-	top: 255vh;
 	
 }
 
 #hpv{
 	
 	position: relative;
+	left: 15%;
+	top: 30vh;
 	
 }
 
@@ -168,14 +173,14 @@ body{
 	width: 500px;
 	border-radius: 25px;
 	position: absolute;
-	right: 5vh;
-	top: 360vh;
 	
 }
 
 #vine{
 	
 	position: relative;
+	left: 10%;
+	top: 30vh;
 	
 }
 
@@ -184,14 +189,15 @@ body{
 	width: 500px;
 	border-radius: 25px;
 	position: absolute;
-	left: 5vh;
-	top: 460vh;
 	
 }
 
 #exo{
 	
 	position: relative;
+	left: 15%;
+	top: 30vh;
+	
 	
 }
 
@@ -200,14 +206,14 @@ body{
 	width: 500px;
 	border-radius: 25px;
 	position: absolute;
-	right: 5vh;
-	top: 570vh;
 	
 }
 
 #alz{
 	
 	position: relative;
+	left: 10%;
+	top: 30vh;
 	
 }
 
@@ -216,14 +222,14 @@ body{
 	width: 500px;
 	border-radius: 25px;
 	position: absolute;
-	left: 5vh;
-	top: 680vh;
 	
 }
 
 #music{
 	
 	position: relative;
+	left: 15%;
+	top: 30vh;
 	
 }
 
@@ -232,14 +238,14 @@ body{
 	width: 500px;
 	border-radius: 25px;
 	position: absolute;
-	right: 5vh;
-	top: 797.5vh;
 	
 }
 
 #buff{
 	
 	position: relative;
+	left: 10%;
+	top: -15vh;
 	
 }
 
@@ -248,8 +254,6 @@ body{
 	width: 500px;
 	border-radius: 25px;
 	position: absolute;
-	left: 5px;
-	top: 820vh;
 	opacity: 0;
 	
 }
